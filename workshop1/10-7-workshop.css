@@ -1,0 +1,56 @@
+body { 
+    font-family: Arial;
+    margin: 0;
+}
+
+.firstClass { 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    font-size: 32px;
+}
+
+.marginEffect { 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerText { 
+    text-align: center;
+}
+
+.middleDiv { 
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    color: white;
+    background-color: #E0D1E3;
+    font-size: 24px;
+}
+
+.projectsDiv { 
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 24px;
+}
+
+.imageEffects {
+    transition: transform .2s; 
+}
+
+.imageEffects:hover { 
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.nav-links { 
+    margin-right: 4rem;
+    margin-top: 2.75rem;
+}
+
+.nav-item { 
+    padding-left: 48px;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
